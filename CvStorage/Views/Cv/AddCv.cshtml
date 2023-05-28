@@ -1,0 +1,149 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Cv
+<div class="container">
+    <h3> Add New Cv</h3>
+    <br />
+    <form method="post" asp-action="AddCv" asp-controller="Cv">
+        <div class="form-group">
+            <label asp-for="Name">Enter Name Here</label>
+            <input type="text" asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Email">Enter Email Here</label>
+            <input type="text" asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Address">Enter Address Here</label>
+            <input type="text" asp-for="Address" class="form-control" />
+            <span asp-validation-for="Address"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="FatherName">Enter FatherName Here</label>
+            <input type="text" asp-for="FatherName" class="form-control" />
+            <span asp-validation-for="FatherName"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="MotherName">Enter MotherName Here</label>
+            <input type="text" asp-for="MotherName" class="form-control" />
+            <span asp-validation-for="MotherName"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="Gender">Enter Gender Here</label>
+            <input type="text" asp-for="Gender" class="form-control" />
+            <span asp-validation-for="Gender"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="Religion">Enter Religion Here</label>
+            <input type="text" asp-for="Religion" class="form-control" />
+            <span asp-validation-for="Religion"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="MaritalStatus">Enter MaritalStatus Here</label>
+            <input type="text" asp-for="MaritalStatus" class="form-control" />
+            <span asp-validation-for="MaritalStatus"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="NationalId">Enter NationalId Here</label>
+            <input type="text" asp-for="NationalId" class="form-control" />
+            <span asp-validation-for="NationalId"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="PrimaryMobile">Enter PrimaryMobile Here</label>
+            <input type="text" asp-for="PrimaryMobile" class="form-control" />
+            <span asp-validation-for="PrimaryMobile"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="EmergencyContact">Enter EmergencyContact Here</label>
+            <input type="text" asp-for="EmergencyContact" class="form-control" />
+            <span asp-validation-for="EmergencyContact"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="BloodGroup">Enter BloodGroup Here</label>
+            <input type="text" asp-for="BloodGroup" class="form-control" />
+            <span asp-validation-for="BloodGroup"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="PresentAddress">Enter PresentAddress Here</label>
+            <input type="text" asp-for="PresentAddress" class="form-control" />
+            <span asp-validation-for="PresentAddress"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="PermanentAddress">Enter PermanentAddress Here</label>
+            <input type="text" asp-for="PermanentAddress" class="form-control" />
+            <span asp-validation-for="PermanentAddress"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="Objective">Enter Objective Here</label>
+            <input type="text" asp-for="Objective" class="form-control" />
+            <span asp-validation-for="Objective"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="PresentSalary">Enter PresentSalary Here</label>
+            <input type="text" asp-for="PresentSalary" class="form-control" />
+            <span asp-validation-for="PresentSalary"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="ExpectedSalary">Enter ExpectedSalary Here</label>
+            <input type="text" asp-for="ExpectedSalary" class="form-control" />
+            <span asp-validation-for="ExpectedSalary"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="SpecialSkills">Enter SpecialSkills Here</label>
+            <input type="text" asp-for="SpecialSkills" class="form-control" />
+            <span asp-validation-for="SpecialSkills"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="CareerSummary">Enter CareerSummary Here</label>
+            <input type="text" asp-for="CareerSummary" class="form-control" />
+            <span asp-validation-for="CareerSummary"></span>
+        </div>
+
+
+        
+
+
+        <div class="form-group">
+            <input type="submit" value="Add Cv" class="btn btn-primary" />
+        </div>
+    </form>
+</div> 
